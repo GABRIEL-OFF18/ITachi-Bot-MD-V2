@@ -17,7 +17,7 @@ export async function before(m, { participants, conn }) {
 
           if (isBotPresent) {
                 setTimeout(async () => {
-                    await conn.reply(m.chat, `⚡──〔 🐭 *PIKACHU-BOT* ⚡ 〕──⚡
+                    await conn.reply(m.chat, `⚡──〔 🐭 *ITACHI-BOT* ⚡ 〕──⚡
 ¡Pika! ⚠️ Ya estoy en este grupo como *bot principal*.
 
 Para evitar spam y confusión, me voy tranquilamente 🌩️
