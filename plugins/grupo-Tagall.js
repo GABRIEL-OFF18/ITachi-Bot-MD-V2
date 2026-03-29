@@ -39,7 +39,7 @@ ${info}
     texto += `┃ ${flag} @${number}\n`;
   }
 
-  texto += `╰══⬣\n✨ *Pikachu Bot* ⚔️`;
+  texto += `╰══⬣\n✨ *Itachi Bot* ⚔️`;
 
   conn.sendMessage(m.chat, {
     text: texto.trim(),
