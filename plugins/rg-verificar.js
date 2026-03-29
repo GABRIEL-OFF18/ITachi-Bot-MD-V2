@@ -23,20 +23,20 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (name.length >= 100) return m.reply(`⚠️ El nombre es demasiado largo.`)
 
   age = parseInt(age)
-  if (age > 1000) return m.reply(`👴 El Profesor Oak no acepta entrenadores tan mayores.`)
-  if (age < 5) return m.reply(`👶 ¡Un Pikachu bebé no puede entrenar aún!`)
+  if (age > 1000) return m.reply(`👴 El Profesor  no acepta usurios tan mayores.`)
+  if (age < 5) return m.reply(`👶 ¡Un Itachi bebé no puede entrenar aún!`)
 
   user.name = name + '✓'.trim()
   user.age = age
   user.regTime = +new Date
   user.registered = true
-const textbot = 'Conviértete en el mejor entrenador Pokémon ⚡'
+const textbot = 'Conviértete en el mejor usuario se como itachi⚡'
 
   
 
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)
 
-  let regbot = `🟡 ¡Entrenador Registrado! 🟡\n\n`
+  let regbot = `🟡 ¡Usurio Registrado! 🟡\n\n`
   regbot += `👤 Nombre: *${name}*\n`
   regbot += `🎂 Edad: *${age} años*\n\n`
   regbot += `🧢 ¡Prepárate para atraparlos a todos!\n`
@@ -47,7 +47,7 @@ const textbot = 'Conviértete en el mejor entrenador Pokémon ⚡'
   text: regbot,
   contextInfo: {
     externalAdReply: {
-      title: '🧢 ¡Nuevo Entrenador Registrado!',
+      title: '🧢 ¡Nuevo Usurio Registrado!',
       body: textbot,
       thumbnailUrl: pp,
       sourceUrl: cn,
