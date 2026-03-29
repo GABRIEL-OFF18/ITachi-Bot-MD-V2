@@ -144,7 +144,7 @@ const handler = async (m, { conn, args, usedPrefix, command, text }) => {
 
 handler.help = ['play'].map(v => v + ' <texto o URL>')
 handler.tags = ['descargas']
-handler.command = ['play']
+handler.command = ['play', 'ytmp4', 'play2', 'playaudio', 'ytmp3',]
 handler.register = true
 
 export default handler
