@@ -142,9 +142,9 @@ const handler = async (m, { conn, args, usedPrefix, command, text }) => {
   await m.react("🏴‍☠️")
 }
 
-handler.help = ['play'].map(v => v + ' <texto o URL>')
+handler.help = ['play', 'ytmp4', 'ytmp3', 'play2', 'playaudio' ].map(v => v + ' <texto o URL>')
 handler.tags = ['descargas']
-handler.command = ['play', 'ytmp4', 'play2', 'playaudio', 'ytmp3',]
+handler.command = ['play', 'ytmp4', 'play2', 'playaudio', 'ytmp3']
 handler.register = true
 
 export default handler
