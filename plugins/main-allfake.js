@@ -40,9 +40,9 @@ global.listo = '⚡ *¡Aquí tienes lo que pediste, maestro pokémon!*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => catalogo,)
 
 // 🗞 Canal del Bot
-global.idchannel = '120363365444927738@newsletter'
-global.canalIdM = ["120363365444927738@newsletter", "120363365444927738@newsletter"]
-global.canalNombreM = ["⚡️𝙋𝙞𝙠𝙖𝙘𝙝𝙪-𝘽𝙤𝙩 ⚡ 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", "⚡️𝙋𝙞𝙠𝙖𝙘𝙝𝙪-𝘽𝙤𝙩 ⚡"]
+global.idchannel = '120363424677971125@newsletter'
+global.canalIdM = ["120363424677971125@newsletter", "120363424677971125@newsletter"]
+global.canalNombreM = ["ver canal", "ver canal"]
 global.channelRD = await getRandomChannel()
 
 
@@ -58,13 +58,13 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'})
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
 
 // 🔁 Reacciones Globales
-global.rwait = '⚡'
+global.rwait = '🌼'
 global.done = '✅'
 global.error = '✖️'
 global.msm = '⚠️'
 
-global.emoji0 = '*⚡(≧∇≦) ピカチュウ~! 🧃*\n'
-global.emoji1 = '*⚡(o≧▽ﾟ)o ピッカ〜!! 🧃*\n'
+global.emoji0 = '*🌼(≧∇≦) ピカチュウ~! 🌼*\n'
+global.emoji1 = '*🌳(o≧▽ﾟ)o ピッカ〜!! 🌳*\n'
 global.emoji2 = '*⚡(✧ω✧) ピカ!! 🧃*\n'
 global.emoji3 = '*⚡(｡♥‿♥｡) ピカチュウ！🧃*\n'
 global.emoji4 = '*⚡(˘▾˘) ピィ〜カ〜！🧃*\n'
@@ -100,8 +100,8 @@ global.botonCanal = {
               name: 'cta_url',
               buttonParamsJson: JSON.stringify({
                 display_text: '✐ Canal oficial',
-                url: 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m',
-                merchant_url: 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m'
+                url: 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q',
+                merchant_url: 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q'
               })
             }
           ]
