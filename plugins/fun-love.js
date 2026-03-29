@@ -1,7 +1,7 @@
 var handler = async (m, { conn, command, text }) => {
   if (!text) return conn.reply(
     m.chat,
-    `⚡️💛 *¡Pika-Pika! Necesito dos nombres para calcular el amor electrizante...*\n\nEjemplo: *#${command} Ash Misty*`,
+    `⚡️💛 *¡uwu uwu! Necesito dos nombres para calcular el amor electrizante...*\n\nEjemplo: *#${command} Ash Misty*`,
     m
   );
 
@@ -10,16 +10,16 @@ var handler = async (m, { conn, command, text }) => {
 
   if (!nombre2) return conn.reply(
     m.chat,
-    `💫 *Ups... falta el segundo nombre, entrenador.*\n\nUsa así: *#${command} Pikachu Eevee*`,
+    `💫 *Ups... falta el segundo nombre, entrenador.*\n\nUsa así: *#${command} Nagi Itachi*`,
     m
   );
 
   let porcentaje = Math.floor(Math.random() * 101); 
   let frases = [
-  `⚡️💛 *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de compatibilidad. ¡Pika-amor! 💖`,
+  `⚡️💛 *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de compatibilidad. ¡Ita-amor! 💖`,
   `🌩️ *${nombre1}* siente chispas por *${nombre2}* con un *${porcentaje}%* de electricidad romántica. ✨`,
-  `💘 Según el radar de amor Pokémon, *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de conexión 💞`,
-  `⚡ *Pikachu detecta una energía del *${porcentaje}%* entre *${nombre1}* y *${nombre2}*. ¡Eso puede evolucionar! 🥰`,
+  `💘 Según el radar de amor Itachi, *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de conexión 💞`,
+  `⚡ *Itachi detecta una energía del *${porcentaje}%* entre *${nombre1}* y *${nombre2}*. ¡Eso puede evolucionar! 🥰`,
   `💓 *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de probabilidad de ser la mejor pareja del equipo Rocket ❤️‍🔥`,
   `💥 *${nombre1}* lanzó un ataque de amor 💘 y *${nombre2}* recibió *${porcentaje}%* de daño emocional 🥺`,
   `🔥 *Charizard* aprueba esta pareja con un *${porcentaje}%* de pasión ardiente entre *${nombre1}* y *${nombre2}* 🔥`,
@@ -30,7 +30,7 @@ var handler = async (m, { conn, command, text }) => {
   `🧡 *${nombre1}* atrapó el corazón de *${nombre2}* con una Pokébola del amor con un *${porcentaje}%* de efectividad 😍`,
   `🌟 ¡Ash y Misty estarían orgullosos! *${nombre1}* y *${nombre2}* tienen un *${porcentaje}%* de historia épica 💘`,
   `⚔️ *Gardevoir* protege este amor con un *${porcentaje}%* de lealtad entre *${nombre1}* y *${nombre2}* 💎`,
-  `🎇 El Profesor Oak dice que esta relación tiene un *${porcentaje}%* de probabilidad de convertirse en leyenda Poké-romántica 📚`
+  `🎇 El Profesor Oak dice que esta relación tiene un *${porcentaje}%* de probabilidad de convertirse en leyenda cuervo-romántica 📚`
 ]
 
   let resultado = frases[Math.floor(Math.random() * frases.length)];
