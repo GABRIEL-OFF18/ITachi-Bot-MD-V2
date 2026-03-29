@@ -40,18 +40,18 @@ export async function before(m, { conn, participants, groupMetadata }) {
   } catch (e) {}
 
   const frasesBienvenida = [
-    "¡Pika Pika! Bienvenido al grupo.",
-    "¡Un rayo de energía ha llegado al grupo!",
-    "Pikachu dice que este grupo ahora es 100% más eléctrico ⚡",
+    "¡Holus ! Bienvenido al grupo.",
+    "¡Un cuervo nuevo  ha llegado al grupo!",
+    "Itachi dice que este grupo ahora es 100% más gotico ⚡",
     "¡Esperamos que la pases genial, entrenador!",
-    "Bienvenido al equipo, ¡que empiece la aventura Pokémon!"
+    "Bienvenido al equipo, ¡que empiece la aventura con itachi!"
   ];
   const frasesDespedida = [
-    "Pikachu te dice adiós con una descarga de cariño.",
-    "Otro entrenador deja el grupo... ¡Buena suerte!",
-    "¡Hasta la próxima, no olvides tus Pokéballs!",
+    "Itachi te dice adiós con una descarga de cariño.",
+    "Otro usurio deja el grupo... ¡Buena suerte!",
+    "¡Hasta la próxima, no olvides tus Maletas!",
     "El grupo se queda con menos voltaje ⚡",
-    "Pikachu te extrañará 🥺"
+    "Itachi te extrañará 🥺"
   ];
 
   const fraseRandomBienvenida = frasesBienvenida[Math.floor(Math.random() * frasesBienvenida.length)];
