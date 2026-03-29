@@ -11,12 +11,12 @@ let nombre, foto, edit, newlink, status, admingp, noadmingp
 
 nombre = `
 ⚡️ *¡Cambio de nombre!*
-🐭 Entrenador: *${usuario}*
-✏️ Ha renombrado el grupo con su PokéPluma.
+🐭 usurio: *${usuario}*
+✏️ Ha renombrado el grupo con su presencia.
 
 📛 Nuevo nombre:
 *「 ${m.messageStubParameters[0]} 」*
-🔁 ¡Un nuevo capítulo comienza!
+🔁 ¡Un nuevo capíitulo comienza!
 `
 
 foto = `
@@ -29,7 +29,7 @@ foto = `
 
 edit = `
 🛠️ *¡Permisos actualizados!*
-🧑‍🏫 Entrenador: *${usuario}*
+🧑‍🏫 usuario: *${usuario}*
 
 ⚙️ Configuración del grupo:
 ${m.messageStubParameters[0] == 'on' 
@@ -40,7 +40,7 @@ ${m.messageStubParameters[0] == 'on'
 
 newlink = `
 🔗 *¡Nuevo enlace generado!*
-👨‍💼 Entrenador: *${usuario}*
+👨‍💼 Usurio: *${usuario}*
 🌐 Ha utilizado *Corte* y restablecido el camino al gimnasio.
 
 🚪 Nuevo acceso al grupo disponible.
