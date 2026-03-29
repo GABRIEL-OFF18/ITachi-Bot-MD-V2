@@ -2,7 +2,7 @@ async function handler(m, { conn, orgs, participants, groupMetadata }) {
   let group = m.chat;
   let totalMembers = participants.length;
   let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group);
-  conn.reply(m.chat, `*⚡🌩️──『 𝑳𝑰𝑵𝑲 𝑷𝑰𝑲𝑨𝑪𝑯𝑼 』──🌩️⚡*
+  conn.reply(m.chat, `*⚡🌩️──『 LINK DEL GRUPO UWU』──🌩️⚡*
 
 📛 *Grupo:* ${groupMetadata.subject}
 👥 *Miembros:* ${totalMembers}
@@ -10,7 +10,7 @@ async function handler(m, { conn, orgs, participants, groupMetadata }) {
 🔗 *Enlace mágico:* 
 ${link}
 
-🐭 ¡Pikachu dice que lo compartas con los mejores entrenadores! ⚡`,  m, { detectLink: true });
+🐭 ¡Itachi dice que lo compartas con los mejores entrenadores! ⚡`,  m, { detectLink: true });
 }
 
 handler.help = ['link'];
