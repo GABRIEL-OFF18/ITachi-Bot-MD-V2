@@ -9,10 +9,10 @@ let handler = async (m, { conn }) => {
   m.react('🧃');
   
 const imageUrl = 'https://files.catbox.moe/lunf5g.jpg'
-  const numCreador = '+59175850453';
+  const numCreador = '59175850453';
   const ownerJid = numCreador + '@s.whatsapp.net';
   const name = await conn.getName(ownerJid) || 'Deylin';
-  const about = (await conn.fetchStatus(ownerJid).catch(() => {}))?.status || `Hola, mucho gusto. Soy Deylin.`;
+  const about = (await conn.fetchStatus(ownerJid).catch(() => {}))?.status || `Hola, mucho gusto. Soy Chinoyt.`;
   const empresa = 'Chinoyt - Servicios Tecnológicos';
 
   const vcard = `
