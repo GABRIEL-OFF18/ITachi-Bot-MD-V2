@@ -62,15 +62,15 @@ let handler = async (m, { conn }) => {
       }))
 
     let menuText = `
-╭════〔 ⚡ 𝙋𝙄𝙆𝘼𝘾𝙃𝙐 - 𝘽𝙊𝙏 ⚡ 〕════╮
-│ 🧃 *Usuario:* @${userId.split('@')[0]}
-│ ⚡ *Tipo:* ${(conn.user.jid === global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
+╭════〔 🪾 𝐈𝐓𝐀𝐂𝐇𝐈- 𝐁𝐎𝐓 🪾 〕════╮
+│ 🐦‍🔥 *Usuario:* @${userId.split('@')[0]}
+│ 🪽 *Tipo:* ${(conn.user.jid === global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
 │ 🌐 *Modo actual:* ${mode}
 │ 👥 *Usuarios registrados:* ${totalreg}
 │ ⏱️ *Tiempo activo:* ${uptime}
 │ 💾 *Comandos:* ${totalCommands}
 ╰════════════════════════════╯
-🎮 *📋 COMANDOS DISPONIBLES 📋* ⚡
+🪾 *🪻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙳𝙸𝚂𝙿𝙾𝙽𝙸𝙱𝙻𝙴𝚂 🪻* 🪾
 ${readMore}`
 
     for (let tag in tags) {
@@ -86,7 +86,7 @@ ${readMore}`
       menuText += `\n╰────────────────────────────╯`
     }
 
-    menuText += `\n\n*👑 © Powered by Deylin - Pikachu Bot*`
+    menuText += `\n\n*👑 © 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙲𝚑𝚒𝚗𝚘𝚢𝚝 - 𝙸𝚃𝙰𝙲𝙷𝙸 𝙱𝙾𝚃*`
 
     const imageUrl = [
       'https://kirito-bot-md.vercel.app/IMG-20250606-WA0167.jpg',
@@ -120,10 +120,10 @@ const msg = generateWAMessageFromContent(m.chat, {
       },
       interactiveMessage: proto.Message.InteractiveMessage.create({
         body: proto.Message.InteractiveMessage.Body.create({
-          text: '✨ Pulsa el botón para unirte al canal oficial'
+          text: '✨ 𝐏𝐮𝐥𝐬𝐚 𝐞𝐥 𝐛𝐨𝐭𝐨́𝐧 𝐩𝐚𝐫𝐚 𝐮𝐧𝐢𝐫𝐭𝐞 𝐚𝐥 𝐜𝐚𝐧𝐚𝐥 𝐨𝐟𝐢𝐜𝐢𝐚𝐥'
         }),
         footer: proto.Message.InteractiveMessage.Footer.create({
-          text: 'Pikachu Bot by Deylin'
+          text: '𝙸𝚃𝙰𝙲𝙷𝙸-𝙱𝙾𝚃 𝙱𝚘𝚝 𝚋𝚢 𝚌𝚑𝚒𝚗𝚘𝚢𝚝'
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           hasMediaAttachment: false
