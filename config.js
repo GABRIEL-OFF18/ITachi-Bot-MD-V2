@@ -25,7 +25,7 @@ import moment from 'moment-timezone'
 
 // ⚙️ PROPIETARIO Y STAFF
 global.owner = [
-['50433191934', '🔰 Creador 🔰', true],
+['51941658192', '🔰 Creador 🔰', true],
 ['5217227584934', 'Angel', true],
 ['573001533523', 'BʀᴀʏᴀɴXD', true],
 ['5212202410659', 'Destroy', true],
@@ -47,15 +47,15 @@ global.jadi = 'JadiBots';
 global.pikaJadibts = true;
 
 // ✨ DATOS DE ESTILO Y METADATOS
-global.packname = '🧃 Pikachu-Bot MD';
-global.botname = '⚡ Pikachu-Bot ⚡';
-global.wm = 'Pikachu-MD';
-global.dev = '© Desarrollado por Deylin';
-global.textbot = 'Pikachu-Bot • Potenciado por Deylin';
-global.etiqueta = 'Team Pikachu ⚡';
+global.packname = '🧃 Itachi-Bot MD';
+global.botname = '⚡ Itachi-Bot ⚡';
+global.wm = 'Itachi-MD';
+global.dev = '© Desarrollado por Chinoyt';
+global.textbot = 'Itachi-Bot • Potenciado por Deylin';
+global.etiqueta = 'Team Itachi ⚡';
 
 // 💰 MONEDA Y AVATARES
-global.moneda = 'pikas';
+global.moneda = 'Itachis';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
