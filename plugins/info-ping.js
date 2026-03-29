@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
               text: text
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: 'Pikachu Bot by Deylin'
+              text: 'Itachi Bot by Chinoyt'
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               hasMediaAttachment: false
@@ -41,8 +41,8 @@ let handler = async (m, { conn }) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: '✐ Canal oficial',
-                    url: 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m',
-                    merchant_url: 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m'
+                    url: 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q',
+                    merchant_url: 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q'
                   })
                 }
               ]
