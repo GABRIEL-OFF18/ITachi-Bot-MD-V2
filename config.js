@@ -51,7 +51,7 @@ global.packname = '🧃 Itachi-Bot MD';
 global.botname = '⚡ Itachi-Bot ⚡';
 global.wm = 'Itachi-MD';
 global.dev = '© Desarrollado por Chinoyt';
-global.textbot = 'Itachi-Bot • Potenciado por Deylin';
+global.textbot = 'Itachi-Bot • Potenciado por Chinoyt';
 global.etiqueta = 'Team Itachi ⚡';
 
 // 💰 MONEDA Y AVATARES
