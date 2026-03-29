@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, usedPrefix, command }) => {
 if (!db.data.chats[m.chat].nsfw && m.isGroup) {
-  return m.reply(`⚠️🐭 *¡Pika Pika! Contenido Bloqueado*\n\n🔞 El contenido *NSFW* está *desactivado* en este grupo.\n\n🧠 Un *administrador* puede activar el modo travieso con:\n👉 *${usedPrefix}nsfw on*\n\n⚡¡Pikachu solo obedece si el líder lo permite!`);
+  return m.reply(`⚠️🌳 *¡Hey tu! Contenido Bloqueado*\n\n🔞 El contenido *NSFW* está *desactivado* en este grupo.\n\n🧠 Un *administrador* puede activar el modo travieso con:\n👉 *${usedPrefix}nsfw on*\n\n⚡¡Itachi solo obedece si el líder lo permite!`);
 }
   try {
     const res = await fetch('https://g-mini-ia.vercel.app/api/nsfw');
