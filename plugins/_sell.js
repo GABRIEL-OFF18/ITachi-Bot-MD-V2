@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
           url: icono
         },
         title: global.textbot,
-        description: " Alquila o compra Pikachu Bot para tus grupos.",
+        description: " Alquila o compra Itachi Bot para tus grupos.",
         currencyCode: "USD",
         priceAmount1000: 5000, // 5.00 USD
         retailerId: "1466", 
