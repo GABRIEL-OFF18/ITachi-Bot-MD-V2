@@ -1,5 +1,5 @@
 var handler = async (m, { conn, participants, usedPrefix, command, args }) => {
-    const pikachu = 'Ｏ(≧∇≦)Ｏ🧃';
+    const Itachi = 'Ｏ(≧∇≦)Ｏ🧃';
     const sadchu = 'Ｏ(≧∇≦)Ｏ🧃';
 
     const groupInfo = await conn.groupMetadata(m.chat);
@@ -25,7 +25,7 @@ var handler = async (m, { conn, participants, usedPrefix, command, args }) => {
     }
 
     if (!usersToKick.length) {
-        return conn.reply(m.chat, `${pikachu} ¡Pika Pika! Debes mencionar a alguien, responder un mensaje o usar un prefijo numérico para expulsar.`, m);
+        return conn.reply(m.chat, `${Itachi} ¡uwu uwi! Debes mencionar a alguien, responder un mensaje o usar un prefijo numérico para expulsar.`, m);
     }
 
     let kicked = [];
