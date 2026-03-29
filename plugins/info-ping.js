@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
     let sysinfo = stdout.toString('utf-8').replace(/Memory:/, 'Ram:')
 
     const text = `
-╭━━━⊰ ⚡ *Pikachu-Bot* ⚡ ⊱━━━╮
+╭━━━⊰ ⚡ *Itachi-Bot* ⚡ ⊱━━━╮
 ┃ ⚡ *Estado:* ¡Activo y cargado!
 ┃ 🕒 *Velocidad:* ${latensi.toFixed(4)} ms
 ╰━━━━━━━━━━━━━━━━━━━━━━━╯
