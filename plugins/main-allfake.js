@@ -72,7 +72,7 @@ global.emoji5 = '*⚡ᰔᩚ ( ᜊ°-° )ᜊ ピカッ！.ᐟ .ᐟ 🧃*\n'
 global.emojis = [emoji0, emoji2, emoji3, emoji4, emoji5].getRandom()
 global.emoji = [emoji0, emoji2, emoji3, emoji4, emoji5].getRandom()
 
-global.wait = '⚡ *Espera un momento entrenador...*'
+global.wait = '⚡ *Espera un momento mientras los cuervos vuelvan...*'
 global.waitt = global.wait
 global.waittt = global.wait
 global.waitttt = global.wait
@@ -89,7 +89,7 @@ global.botonCanal = {
           text: '✨ Pulsa el botón para unirte al canal oficial'
         }),
         footer: proto.Message.InteractiveMessage.Footer.create({
-          text: 'Pikachu Bot by Deylin'
+          text: 'Itchi Bot by Chinoyt'
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           hasMediaAttachment: false
@@ -145,7 +145,7 @@ var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
 //Fakes
-let pp = null; try { pp = await conn.profilePictureUrl('50433191934@s.whatsapp.net', 'image') } catch (e) { pp = null } global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `120363402481697721@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `Deylin creador ✨`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Deylin creador✨,;;;\nFN:Deylin creador\nitem1.TEL;waid=50433191934:50433191934\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': pp ? await (await fetch(pp)).buffer() : null, thumbnail: null, sendEphemeral: true }}}
+let pp = null; try { pp = await conn.profilePictureUrl('50433191934@s.whatsapp.net', 'image') } catch (e) { pp = null } global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `120363402481697721@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `Chinoyt creador ✨`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Deylin creador✨,;;;\nFN:Deylin creador\nitem1.TEL;waid=50433191934:50433191934\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': pp ? await (await fetch(pp)).buffer() : null, thumbnail: null, sendEphemeral: true }}}
 
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }
 }}, { quoted: m }
@@ -155,11 +155,9 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 
 
 global.icono = [ 
-'https://kirito-bot-md.vercel.app/IMG-20250606-WA0167.jpg',
-'https://raw.githubusercontent.com/Deylin-Eliac/Pikachu-Bot/main/src/pika.jpg',
-'https://raw.githubusercontent.com/Deylin-Eliac/Pikachu-Bot/main/src/pikay.jpg',
-'https://raw.githubusercontent.com/Deylin-Eliac/Pikachu-Bot/main/src/pikachu.jpg',
-'https://kirito-bot-md.vercel.app/catalogo.jpg'
+'https://raw.githubusercontent.com/nulswa/files/main/uploads/temporal/e6d645af8fdc1eac.jpg',
+'https://raw.githubusercontent.com/nulswa/files/main/uploads/temporal/e6d645af8fdc1eac.jpg',
+'https://raw.githubusercontent.com/nulswa/files/main/uploads/temporal/e6d645af8fdc1eac.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { /*newsletterJid: channelRD.id,*/ serverMessageId: 100, /*newsletterName: channelRD.name,*/ }, externalAdReply: { showAdAttribution: true, title: textbot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
