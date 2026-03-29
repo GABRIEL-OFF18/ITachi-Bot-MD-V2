@@ -11,7 +11,7 @@ const formatVideo = ["360", "480", "720", "1080", "1440", "4k"];
 const ddownr = {
   download: async (url, format) => {
     if (!formatAudio.includes(format) && !formatVideo.includes(format)) {
-      throw new Error("⚠️ Pika Pika~ Ese formato no es compatible.");
+      throw new Error("⚠️ Itachi cuervos~ Ese formato no es compatible.");
     }
 
     const config = {
@@ -29,7 +29,7 @@ const ddownr = {
         const downloadUrl = await ddownr.cekProgress(id);
         return { id, title, image: info.image, downloadUrl };
       } else {
-        throw new Error("⛔ Pikachu no pudo encontrar los detalles del video.");
+        throw new Error("⛔ Itachi no pudo encontrar los detalles del video.");
       }
     } catch (error) {
       console.error("❌ Error:", error);
