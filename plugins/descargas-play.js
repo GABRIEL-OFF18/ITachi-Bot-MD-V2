@@ -164,7 +164,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
       if (!success) {
-        return m.reply("❌ Pikachu no pudo encontrar un enlace válido para descargar.");
+        return m.reply("❌ Itachi no pudo encontrar un enlace válido para descargar.");
       }
     }
 
