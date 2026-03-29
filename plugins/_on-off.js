@@ -16,7 +16,7 @@ const handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, i
     isEnable = false;
   } else {
     const estado = isEnable ? '🟢 ACTIVADO' : '🔴 DESACTIVADO';
-    return conn.reply(m.chat, `🧩 *PIKACHU-BOT CONFIGURADOR*\n━━━━━━━━━━━━━━━━━━━━━━\n🎮 *Entrenador*, puedes controlar la función: *${command}*\n\n⚙️ Usa:\n• *${usedPrefix}${command} on* – Activar\n• *${usedPrefix}${command} off* – Desactivar\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 *Estado actual:* ${estado}\n━━━━━━━━━━━━━━━━━━━━━━`, m);
+    return conn.reply(m.chat, `🧩 *ITACHI-BOT CONFIGURADOR*\n━━━━━━━━━━━━━━━━━━━━━━\n🎮 *Entrenador*, puedes controlar la función: *${command}*\n\n⚙️ Usa:\n• *${usedPrefix}${command} on* – Activar\n• *${usedPrefix}${command} off* – Desactivar\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 *Estado actual:* ${estado}\n━━━━━━━━━━━━━━━━━━━━━━`, m);
   }
 
   switch (type) {
@@ -100,7 +100,7 @@ const handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, i
 
   chat[type] = isEnable;
 
-  conn.reply(m.chat, `🎉 *PIKACHU CONFIGURACIÓN COMPLETA*\n━━━━━━━━━━━━━━━━━━━━━━\n🧩 Función: *${type}*\n🎛 Estado: ${isEnable ? '🟢 ACTIVADO' : '🔴 DESACTIVADO'}\n${isAll ? '⚙️ Se aplicó a todo el bot' : '👥 Aplicado en este grupo'}\n━━━━━━━━━━━━━━━━━━━━━━\n✨ ¡Entrenador, sigue configurando tu aventura Pokémon!`, m);
+  conn.reply(m.chat, `🎉 *ITACHI CONFIGURACIÓN COMPLETA*\n━━━━━━━━━━━━━━━━━━━━━━\n🧩 Función: *${type}*\n🎛 Estado: ${isEnable ? '🟢 ACTIVADO' : '🔴 DESACTIVADO'}\n${isAll ? '⚙️ Se aplicó a todo el bot' : '👥 Aplicado en este grupo'}\n━━━━━━━━━━━━━━━━━━━━━━\n✨ ¡Entrenador, sigue configurando tu aventura Pokémon!`, m);
 };
 
 handler.help = ['welcome', 'bv', 'bienvenida', 'antisubbots', 'antisub', 'antisubot', 'antibot2', 'modoadmin', 'soloadmin', 'reaction', 'reaccion', 'emojis', 'nsfw', 'nsfwhot', 'nsfwhorny', 'jadibotmd', 'modejadibot', 'detect', 'avisos', 'detect2', 'eventos', 'antilink', 'antilink2'];
